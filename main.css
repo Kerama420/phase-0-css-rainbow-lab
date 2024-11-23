@@ -1,11 +1,62 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting
-                            the border's width, its type, and color */
-  display: inline-block; /* a way of positioning elements */
-  min-width: 20em; /* the two min styles make the shape */
-  min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
-  border-left-color: transparent; /* these remove the color from the left side */
-  border-right-color: transparent; /* the right side */
-  border-bottom-color: transparent; /* and the bottom of the circle */
+#red {
+  border: 20px solid transparent; /* Set all borders to transparent initially */
+  border-top-color: #f00; /* Explicitly set the top border color to red */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#orange {
+  border: 20px solid transparent;
+  border-top-color: #ffa500; /* Explicitly set the top border color to orange */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#yellow {
+  border: 20px solid transparent;
+  border-top-color: #ff0; /* Explicitly set the top border color to yellow */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#green {
+  border: 20px solid transparent;
+  border-top-color: #00bc3f; /* Explicitly set the top border color to green */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#blue {
+  border: 20px solid transparent;
+  border-top-color: #06f; /* Explicitly set the top border color to blue */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#indigo {
+  border: 20px solid transparent;
+  border-top-color: #8a2be2; /* Explicitly set the top border color to indigo */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
+}
+
+#violet {
+  border: 20px solid transparent;
+  border-top-color: #d300c9; /* Explicitly set the top border color to violet */
+  display: inline-block;
+  min-width: 20em;
+  min-height: 25em;
+  border-radius: 50%;
 }
